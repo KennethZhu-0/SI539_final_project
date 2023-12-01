@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     
     copyImages();
-    setInterval(copyImages, 10000);
+    setInterval(copyImages, 5000);
     
     // Adding event listener to the button
     const speedButton = document.getElementById('speedButton');
